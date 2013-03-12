@@ -1,8 +1,8 @@
 {
 	"pop": {
 		"class": "button",
-		"n_file": "assets/img/default/players/small/gomez-carlos.jpg",
-		"h_file": "assets/img/default/players/small/berry-quintin.jpg",
+		"n_file": "img/gomez-carlos.jpg",
+		"h_file": "img/berry-quintin.jpg",
 		"rect": {
 			"x": 50,
 			"y": 50,

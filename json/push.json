@@ -1,9 +1,9 @@
 {
 	"push": {
 		"class": "button",
-		"n_file": "assets/img/default/players/small/perez-salvador.jpg",
-		"h_file": "assets/img/default/players/small/lillibridge-brent.jpg",
-		"d_file": "assets/img/default/players/small/berry-quintin.jpg",
+		"n_file": "img/perez-salvador.jpg",
+		"h_file": "img/lillibridge-brent.jpg",
+		"d_file": "img/berry-quintin.jpg",
 		"rect": {
 			"x": 20,
 			"y": 20,
