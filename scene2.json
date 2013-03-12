@@ -1,0 +1,117 @@
+{
+	"player_view": {
+		"class": "view",
+		"rect": {
+			"w": 250,
+			"h": 250
+		},
+		"resizeToParent": false,
+		
+		"children" : {
+			"scroll_view": {
+				"class": "scrollview",
+				"resizeToChildren": true,
+				"rect": {
+					"x": 100,
+					"y": 100,
+					"w": 100,
+					"h": 100
+				},
+				
+				"children": {
+					"p0": {
+						"class": "image",
+						"file": "assets/img/default/players/large/blanks-kyle.jpg",
+						"rect": {
+							"x": 0,
+							"y": 0
+						},
+						"hidden": true
+					},
+					"p1": {
+						"class": "image",
+						"file": "assets/img/default/players/large/tejada-ruben.jpg",
+						"rect": {
+							"x": 10,
+							"y": 0
+						},
+						"order": 1
+					},
+					"p2": {
+						"class": "image",
+						"file": "assets/img/default/players/large/ramirez-ramon.jpg",
+						"rect": {
+							"x": 20,
+							"y": 0
+						},
+						"order": 2
+					},
+					"p3": {
+						"class": "image",
+						"file": "assets/img/default/players/large/gardner-brett.jpg",
+						"rect": {
+							"x": 30,
+							"y": 0
+						},
+						"order": 3
+					},
+					"p4": {
+						"class": "image",
+						"file": "assets/img/default/players/large/nathan-joe.jpg",
+						"rect": {
+							"x": 40,
+							"y": 0
+						},
+						"order": 4
+					},
+					"p5": {
+						"class": "image",
+						"file": "assets/img/default/players/large/cespedes-yoenis.jpg",
+						"rect": {
+							"x": 50,
+							"y": 0
+						},
+						"order": 5
+					},
+					"p6": {
+						"class": "image",
+						"file": "assets/img/default/players/large/viciedo-dayan.jpg",
+						"rect": {
+							"x": 60,
+							"y": 0
+						},
+						"order": 6
+					},
+					"p7": {
+						"class": "image",
+						"file": "assets/img/default/players/large/heisey-chris.jpg",
+						"rect": {
+							"x": 70,
+							"y": 0
+						},
+						"order": 7
+					},
+					"p8": {
+						"class": "image",
+						"file": "assets/img/default/players/large/rogers-esmil.jpg",
+						"rect": {
+							"x": 80,
+							"y": 0
+						},
+						"order": 8
+					},
+					"p9": {
+						"class": "image",
+						"file": "assets/img/default/players/large/chavez-eric.jpg",
+						"rect": {
+							"x": 90,
+							"y": 0
+						},
+						"order": 9,
+						"children": "assets/pop.json"
+					}
+				}
+			}
+		}
+	}
+}

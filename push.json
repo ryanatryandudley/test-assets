@@ -1,0 +1,28 @@
+{
+	"push": {
+		"class": "button",
+		"n_file": "assets/img/default/players/small/perez-salvador.jpg",
+		"h_file": "assets/img/default/players/small/lillibridge-brent.jpg",
+		"d_file": "assets/img/default/players/small/berry-quintin.jpg",
+		"rect": {
+			"x": 20,
+			"y": 20,
+			"w": 50,
+			"h": 50
+		},
+		"click": [{
+				  "command": "disable",
+				  "params": {
+				  "name": "push"
+				  },
+				  "lock": true
+				  }, {
+				  "command": "push",
+				  "params": {
+				  "file": "assets/scene2.json"
+				  },
+				  "lock": true
+				  }],
+		"enabled" : true
+	}
+}

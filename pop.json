@@ -1,0 +1,25 @@
+{
+	"pop": {
+		"class": "button",
+		"n_file": "assets/img/default/players/small/gomez-carlos.jpg",
+		"h_file": "assets/img/default/players/small/berry-quintin.jpg",
+		"rect": {
+			"x": 50,
+			"y": 50,
+			"w": 50,
+			"h": 50
+		},
+		
+		"click": [{
+				  "command": "pop",
+				  "params": {
+				  "name": "player_view"
+				  }
+				  }, {
+				  "command": "enable",
+				  "params": {
+				  "name": "push"
+				  }
+				  }]
+	}
+}

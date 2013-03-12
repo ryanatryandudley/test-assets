@@ -1,0 +1,52 @@
+{
+	"ask_manager_x1": {
+		"class": "image",
+		"file": "assets/img/default/ggp_items/ask_manager.png",
+		"rect": {
+			"x": 0,
+			"y": 0,
+			"w": 100,
+			"h": 100
+		},
+		"order": 1,
+		"hidden": true
+	},
+	"ask_manager_x2": {
+		"class": "image",
+		"file": "assets/img/default/ggp_items/ask_manager.png",
+		"rect": {
+			"x": 100,
+			"y": 0,
+			"w": 100,
+			"h": 100
+		},
+		"order": 1,
+		"clipsToBounds": true,
+		"children": "assets/push.json",
+		"hidden": false
+	},
+	"ask_manager_x3": {
+		"class": "image",
+		"file": "assets/img/default/ggp_items/ask_manager.png",
+		"rect": {
+			"x": 0,
+			"y": 100,
+			"w": 100,
+			"h": 100
+		},
+		"order": 1,
+		"hidden": false
+	},
+	"ask_manager_x4": {
+		"class": "image",
+		"file": "assets/img/default/ggp_items/ask_manager.png",
+		"rect": {
+			"x": 100,
+			"y": 100,
+			"w": 100,
+			"h": 100
+		},
+		"order": 1,
+		"hidden": false
+	}
+}

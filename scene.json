@@ -1,0 +1,61 @@
+{
+	"master_view": {
+		"class": "view",
+		"resizeToChildren": true,
+		
+		"children": {
+			"ask_manager_1x1": {
+				"class": "image",
+				"file": "assets/img/default/ggp_items/ask_manager.png",
+				"rect": {
+					"x": 0,
+					"y": 0
+				},
+				"children": "assets/children.json",
+				"userInteractionEnabled": false
+			},
+			"ask_manager_1x2": {
+				"class": "image",
+				"file": "assets/img/default/ggp_items/ask_manager.png",
+				"rect": {
+					"x": 200,
+					"y": 0
+				}
+			},
+			"ask_manager_1x3": {
+				"class": "image",
+				"file": "assets/img/default/ggp_items/ask_manager.png",
+				"rect": {
+					"x": 400,
+					"y": 0
+				},
+				"alpha": 0.1
+			},
+			"ask_manager_2x1": {
+				"class": "image",
+				"file": "assets/img/default/ggp_items/ask_manager.png",
+				"rect": {
+					"x": 0,
+					"y": 200
+				},
+				"children": "assets/children.json"
+			},
+			"ask_manager_2x2": {
+				"class": "image",
+				"file": "assets/img/default/ggp_items/ask_manager.png",
+				"rect": {
+					"x": 200,
+					"y": 200
+				}
+			},
+			"ask_manager_2x3": {
+				"class": "image",
+				"file": "assets/img/default/ggp_items/ask_manager.png",
+				"rect": {
+					"x": 400,
+					"y": 200
+				}
+			}
+		}
+	}
+}
