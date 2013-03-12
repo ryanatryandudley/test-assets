@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>en.lproj/MainMenu.nib</key>
+	<string>en.lproj/MainMenu/754a644a4ad699ff7f77c3d6112a774c5f969c5e218ae06734a5e9a5e65488ce.nib</string>
+	<key>kitten-assets/img/ask_manager.png</key>
+	<string>kitten-assets/img/ask_manager/2f6be89583dc9b6f08e39d4727a84b0e06acf5619d32e27e2989ea7360bd2f5c.png</string>
+	<key>kitten-assets/img/berry-quintin.jpg</key>
+	<string>kitten-assets/img/berry-quintin/9a970a41a6ddff08d5d48db578721ffc988ad29866ed2c35cdddea4cac20adab.jpg</string>
+	<key>kitten-assets/img/blanks-kyle.jpg</key>
+	<string>kitten-assets/img/blanks-kyle/24db25a44501dd165b78b7718280b0d5dc8ff096d653535e5473defb2782475c.jpg</string>
+	<key>kitten-assets/img/cespedes-yoenis.jpg</key>
+	<string>kitten-assets/img/cespedes-yoenis/fbfce3015ffbd4af930d556bb82e92ac82708e838c5dc4307c266aa3c65fe3af.jpg</string>
+	<key>kitten-assets/img/chavez-eric.jpg</key>
+	<string>kitten-assets/img/chavez-eric/ee2f1e97df3cc549b506b1ce15c31849a8c7f23b3f54ae24815f2ced42d72ba1.jpg</string>
+	<key>kitten-assets/img/fnf.png</key>
+	<string>kitten-assets/img/fnf/3a666f1bc024d7d4592c5e44389674d1ddb95bf3824465554946d72219bf13d6.png</string>
+	<key>kitten-assets/img/gardner-brett.jpg</key>
+	<string>kitten-assets/img/gardner-brett/61d8784ad72cf2ddae26e4d5c7d2a17f819f83dce90f4ee02b2d6328e7fa9820.jpg</string>
+	<key>kitten-assets/img/gomez-carlos.jpg</key>
+	<string>kitten-assets/img/gomez-carlos/73dea308fc79c3d5d8d7cc3fa0412e12d168807100bc653c3085e75af899055c.jpg</string>
+	<key>kitten-assets/img/heisey-chris.jpg</key>
+	<string>kitten-assets/img/heisey-chris/30118b6df7da4ee87086ef2430b2ecd8329521de6c2fd6e186803a92060dc0a5.jpg</string>
+	<key>kitten-assets/img/lillibridge-brent.jpg</key>
+	<string>kitten-assets/img/lillibridge-brent/f28fb56751db835fbf5f2d07f793e240e16c4d14453819ce6ccd1823d4de465b.jpg</string>
+	<key>kitten-assets/img/nathan-joe.jpg</key>
+	<string>kitten-assets/img/nathan-joe/e40858401f1b5668e2da699166a1fec8826dcc5699d1a97d8938380bebfd2ac7.jpg</string>
+	<key>kitten-assets/img/perez-salvador.jpg</key>
+	<string>kitten-assets/img/perez-salvador/a3f91dc92f1e8bc8e006a83a9a163a093c9b61f01577399a18e2d8273ebf3269.jpg</string>
+	<key>kitten-assets/img/ramirez-ramon.jpg</key>
+	<string>kitten-assets/img/ramirez-ramon/922929284d97fd4c983bf851fac1405408847ffb939d4c41a8393a2d6036f752.jpg</string>
+	<key>kitten-assets/img/rogers-esmil.jpg</key>
+	<string>kitten-assets/img/rogers-esmil/209b2404c83d3af4dd86c0ab2ff67a970045f08ba43520a9bc887c1b0aae1c50.jpg</string>
+	<key>kitten-assets/img/tejada-ruben.jpg</key>
+	<string>kitten-assets/img/tejada-ruben/f27a1fc121ad5fd3d008a7225a93e56546301ac5367357dc6a064c3bb110a42b.jpg</string>
+	<key>kitten-assets/img/viciedo-dayan.jpg</key>
+	<string>kitten-assets/img/viciedo-dayan/134bb70bf5e5a2c1fac566aaa3b4593ca3f636aff068d662a62072a99f58573b.jpg</string>
+	<key>kitten-assets/json/children.json</key>
+	<string>kitten-assets/json/children/95437ac2b22390156fdbd3e52e1f4ab8a5971fc13b95cc62643ffd65a4fe8afb.json</string>
+	<key>kitten-assets/json/pop.json</key>
+	<string>kitten-assets/json/pop/7cacc93097621b80ea7be230b69e6c96fb197dc07b47f27f60d62ee0d5e67ff3.json</string>
+	<key>kitten-assets/json/push.json</key>
+	<string>kitten-assets/json/push/cf9a4597eeec28ff42735682b1af5e5724db49c5c7d4552ea8e55c7a2fa05161.json</string>
+	<key>kitten-assets/json/scene.json</key>
+	<string>kitten-assets/json/scene/6d2cfe6dd6c67305411465d83ba08cae448b2d11d1c56c63bbc4a728a2fe32eb.json</string>
+	<key>kitten-assets/json/scene2.json</key>
+	<string>kitten-assets/json/scene2/d42600636f1699669357d10604e9ea22ce5bfc615daf9b4d5265c6a9706dd8c1.json</string>
+</dict>
+</plist>
