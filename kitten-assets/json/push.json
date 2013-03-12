@@ -1,9 +1,9 @@
 {
 	"push": {
 		"class": "button",
-		"n_file": "img/perez-salvador.jpg",
-		"h_file": "img/lillibridge-brent.jpg",
-		"d_file": "img/berry-quintin.jpg",
+		"n_file": "kitten-assets/img/perez-salvador.jpg",
+		"h_file": "kitten-assets/img/lillibridge-brent.jpg",
+		"d_file": "kitten-assets/img/berry-quintin.jpg",
 		"rect": {
 			"x": 20,
 			"y": 20,
@@ -19,7 +19,7 @@
 				  }, {
 				  "command": "push",
 				  "params": {
-				  "file": "assets/scene2.json"
+				  "file": "kitten-assets/json/scene2.json"
 				  },
 				  "lock": true
 				  }],

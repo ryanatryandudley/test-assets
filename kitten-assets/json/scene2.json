@@ -21,7 +21,7 @@
 				"children": {
 					"p0": {
 						"class": "image",
-						"file": "img/blanks-kyle.jpg",
+						"file": "kitten-assets/img/blanks-kyle.jpg",
 						"rect": {
 							"x": 0,
 							"y": 0
@@ -30,7 +30,7 @@
 					},
 					"p1": {
 						"class": "image",
-						"file": "img/tejada-ruben.jpg",
+						"file": "kitten-assets/img/tejada-ruben.jpg",
 						"rect": {
 							"x": 10,
 							"y": 0
@@ -39,7 +39,7 @@
 					},
 					"p2": {
 						"class": "image",
-						"file": "img/ramirez-ramon.jpg",
+						"file": "kitten-assets/img/ramirez-ramon.jpg",
 						"rect": {
 							"x": 20,
 							"y": 0
@@ -48,7 +48,7 @@
 					},
 					"p3": {
 						"class": "image",
-						"file": "img/gardner-brett.jpg",
+						"file": "kitten-assets/img/gardner-brett.jpg",
 						"rect": {
 							"x": 30,
 							"y": 0
@@ -57,7 +57,7 @@
 					},
 					"p4": {
 						"class": "image",
-						"file": "img/nathan-joe.jpg",
+						"file": "kitten-assets/img/nathan-joe.jpg",
 						"rect": {
 							"x": 40,
 							"y": 0
@@ -66,7 +66,7 @@
 					},
 					"p5": {
 						"class": "image",
-						"file": "img/cespedes-yoenis.jpg",
+						"file": "kitten-assets/img/cespedes-yoenis.jpg",
 						"rect": {
 							"x": 50,
 							"y": 0
@@ -75,7 +75,7 @@
 					},
 					"p6": {
 						"class": "image",
-						"file": "img/viciedo-dayan.jpg",
+						"file": "kitten-assets/img/viciedo-dayan.jpg",
 						"rect": {
 							"x": 60,
 							"y": 0
@@ -84,7 +84,7 @@
 					},
 					"p7": {
 						"class": "image",
-						"file": "img/heisey-chris.jpg",
+						"file": "kitten-assets/img/heisey-chris.jpg",
 						"rect": {
 							"x": 70,
 							"y": 0
@@ -93,7 +93,7 @@
 					},
 					"p8": {
 						"class": "image",
-						"file": "img/rogers-esmil.jpg",
+						"file": "kitten-assets/img/rogers-esmil.jpg",
 						"rect": {
 							"x": 80,
 							"y": 0
@@ -102,13 +102,13 @@
 					},
 					"p9": {
 						"class": "image",
-						"file": "img/chavez-eric.jpg",
+						"file": "kitten-assets/img/chavez-eric.jpg",
 						"rect": {
 							"x": 90,
 							"y": 0
 						},
 						"order": 9,
-						"children": "assets/pop.json"
+						"children": "kitten-assets/json/pop.json"
 					}
 				}
 			}
