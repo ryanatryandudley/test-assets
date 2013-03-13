@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>en.lproj/MainMenu.nib</key>
-	<string>en.lproj/MainMenu/754a644a4ad699ff7f77c3d6112a774c5f969c5e218ae06734a5e9a5e65488ce.nib</string>
+	<key>MainMenu.nib</key>
+	<string>MainMenu/754a644a4ad699ff7f77c3d6112a774c5f969c5e218ae06734a5e9a5e65488ce.nib</string>
+	<key>kitten-assets/AssetVersionMap.plist</key>
+	<string>kitten-assets/AssetVersionMap/2111d9aff4f38c8d3add02b6a1eb1c1aaa878e9500ea2880fd6ca37e651e045d.plist</string>
 	<key>kitten-assets/img/ask_manager.png</key>
 	<string>kitten-assets/img/ask_manager/2f6be89583dc9b6f08e39d4727a84b0e06acf5619d32e27e2989ea7360bd2f5c.png</string>
 	<key>kitten-assets/img/berry-quintin.jpg</key>
@@ -45,6 +47,6 @@
 	<key>kitten-assets/json/scene.json</key>
 	<string>kitten-assets/json/scene/6d2cfe6dd6c67305411465d83ba08cae448b2d11d1c56c63bbc4a728a2fe32eb.json</string>
 	<key>kitten-assets/json/scene2.json</key>
-	<string>kitten-assets/json/scene2/d42600636f1699669357d10604e9ea22ce5bfc615daf9b4d5265c6a9706dd8c1.json</string>
+	<string>kitten-assets/json/scene2/b4977b2ef2560d0919213b9ef28b675bc30d61bb74dcf6c63e8b91d7afb84bc6.json</string>
 </dict>
 </plist>
