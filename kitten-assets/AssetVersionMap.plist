@@ -5,7 +5,53 @@
 	<key>MainMenu.nib</key>
 	<string>MainMenu/754a644a4ad699ff7f77c3d6112a774c5f969c5e218ae06734a5e9a5e65488ce.nib</string>
 	<key>kitten-assets/AssetVersionMap.plist</key>
-	<string>kitten-assets/AssetVersionMap/2111d9aff4f38c8d3add02b6a1eb1c1aaa878e9500ea2880fd6ca37e651e045d.plist</string>
+	<string>kitten-assets/AssetVersionMap/283a5578aabca2738f829d827e39ca6e167fa8224eaf1fe0a993fbf6a801e4b8.plist</string>
+	<key>kitten-assets/gamescene/back-highlight.png</key>
+	<string>kitten-assets/gamescene/back-highlight/90ad75c6a81c5afcc70f5f7165c59a5f1fc86d89889f507ca5da4784a875d1c8.png</string>
+	<key>kitten-assets/gamescene/back.png</key>
+	<string>kitten-assets/gamescene/back/477a3327ae280bbcafb3e093cf6065eec33f2e090e90e4a14da35b22f0d8e387.png</string>
+	<key>kitten-assets/gamescene/background.png</key>
+	<string>kitten-assets/gamescene/background/1fba120bafd08072ad6ac848064d29b465c6bb0957c981900de2acb8e71269a3.png</string>
+	<key>kitten-assets/gamescene/game.json</key>
+	<string>kitten-assets/gamescene/game/9c247589d30a5944010b19d388340a9f008e80dcdc7ec270eaf817f290e420d9.json</string>
+	<key>kitten-assets/gamescene/game_o.png</key>
+	<string>kitten-assets/gamescene/game_o/0668321ff5c1cf895df652c9954726322c45c72cfd97a08808137b63b4f0e4f0.png</string>
+	<key>kitten-assets/gamescene/game_x.png</key>
+	<string>kitten-assets/gamescene/game_x/53136d2be3efd7d4b3eb92a0ebb7bed0cdb7a67c0f7077e71d91383c8f0efbaa.png</string>
+	<key>kitten-assets/gamescene/gamebg.png</key>
+	<string>kitten-assets/gamescene/gamebg/f0f6cd634c0dff439efff6de2edd26e02a95d07b2721769bee3bb8722fdc6618.png</string>
+	<key>kitten-assets/gamescene/level-highlight.png</key>
+	<string>kitten-assets/gamescene/level-highlight/577ef37ea01a754eddae659eb61f49e5f28e7922efed60438667a832aeb6a357.png</string>
+	<key>kitten-assets/gamescene/levelbg.png</key>
+	<string>kitten-assets/gamescene/levelbg/24f3e20d05c741e611a4a492a41474aa3ad7ab7e83f157d4bf9404e223b79a2b.png</string>
+	<key>kitten-assets/gamescene/mail-highlight.png</key>
+	<string>kitten-assets/gamescene/mail-highlight/b2278a9615e2a9e454931eff39a7dee509bbc36c8836af5e7c6c38d15a102ebe.png</string>
+	<key>kitten-assets/gamescene/mail.json</key>
+	<string>kitten-assets/gamescene/mail/5393200a8417f037521cdb4c2d224b43fed91da79fd50a8be76d0ef36ba663b3.json</string>
+	<key>kitten-assets/gamescene/mail.png</key>
+	<string>kitten-assets/gamescene/mail/801873378bbb155fa0df17cd5718f07facd81ed1bc9c9a0bdc9d503aeaef0ba2.png</string>
+	<key>kitten-assets/gamescene/mailNEW.png</key>
+	<string>kitten-assets/gamescene/mailNEW/07369eb74930e1ffa8c0ac32f9eb064e15b563a1cf8ad333b81759d342a79fad.png</string>
+	<key>kitten-assets/gamescene/mailbg.png</key>
+	<string>kitten-assets/gamescene/mailbg/48cecb0cdd9cdff2787eb0597d3cb466905ba628d81f75f4ad960289bbdeb17d.png</string>
+	<key>kitten-assets/gamescene/message-highlight.png</key>
+	<string>kitten-assets/gamescene/message-highlight/3da56cd8293b3b5fb7369f5b406ad190230543dd47e5126d2b356fdd0796e276.png</string>
+	<key>kitten-assets/gamescene/messagebg.png</key>
+	<string>kitten-assets/gamescene/messagebg/75da754b3673a4505c43635ccfbd42859490d03036707f636b4973ab7b4f7104.png</string>
+	<key>kitten-assets/gamescene/messages.json</key>
+	<string>kitten-assets/gamescene/messages/edab592943164090003cff00b77b3d842c534499ebe051e5af233b341b0db711.json</string>
+	<key>kitten-assets/gamescene/popupbg.png</key>
+	<string>kitten-assets/gamescene/popupbg/7e3d4370aba752ced339459eeb0ae6b540feed3a29feab2b2bedfefbda3ee276.png</string>
+	<key>kitten-assets/gamescene/scene.json</key>
+	<string>kitten-assets/gamescene/scene/6a6cb90a394cd64c9ff489b9aec7b4d65c531ff4ef240ead9938b0c4d9d18597.json</string>
+	<key>kitten-assets/gamescene/scrollbg.png</key>
+	<string>kitten-assets/gamescene/scrollbg/6493bbd4eae755db4c1de29c9e5c99ad411701fc774437eb58f386ca39c17ded.png</string>
+	<key>kitten-assets/gamescene/settings-highlight.png</key>
+	<string>kitten-assets/gamescene/settings-highlight/44b7e28c32d34739786dd9fa5033628fc8629ee8b58ba96534d90f415f6cd553.png</string>
+	<key>kitten-assets/gamescene/settings.json</key>
+	<string>kitten-assets/gamescene/settings/1165c5d8cd98b4b402cd054ccd500c093b42847d456b9427acf0220fb3b89906.json</string>
+	<key>kitten-assets/gamescene/settings.png</key>
+	<string>kitten-assets/gamescene/settings/027bab59334321f2aa98539b26d3f1dcf8140afcab1defe8f3d2b3e6be046c7f.png</string>
 	<key>kitten-assets/img/ask_manager.png</key>
 	<string>kitten-assets/img/ask_manager/2f6be89583dc9b6f08e39d4727a84b0e06acf5619d32e27e2989ea7360bd2f5c.png</string>
 	<key>kitten-assets/img/berry-quintin.jpg</key>
@@ -41,12 +87,12 @@
 	<key>kitten-assets/json/children.json</key>
 	<string>kitten-assets/json/children/95437ac2b22390156fdbd3e52e1f4ab8a5971fc13b95cc62643ffd65a4fe8afb.json</string>
 	<key>kitten-assets/json/pop.json</key>
-	<string>kitten-assets/json/pop/7cacc93097621b80ea7be230b69e6c96fb197dc07b47f27f60d62ee0d5e67ff3.json</string>
+	<string>kitten-assets/json/pop/23474826aec3a48a72cdf0d001fdab56ce60883a6a4afed2bf60bdac7dc2f749.json</string>
 	<key>kitten-assets/json/push.json</key>
-	<string>kitten-assets/json/push/cf9a4597eeec28ff42735682b1af5e5724db49c5c7d4552ea8e55c7a2fa05161.json</string>
+	<string>kitten-assets/json/push/ee817f236313a27ca606b20d86a094478e4f4cf7d9910aac276745fa6e9a35b8.json</string>
 	<key>kitten-assets/json/scene.json</key>
-	<string>kitten-assets/json/scene/6d2cfe6dd6c67305411465d83ba08cae448b2d11d1c56c63bbc4a728a2fe32eb.json</string>
+	<string>kitten-assets/json/scene/847be7bbc3fe632e5ba40a0a16bffebe7adb373bf1f3d69482ede52d5610c7a8.json</string>
 	<key>kitten-assets/json/scene2.json</key>
-	<string>kitten-assets/json/scene2/b4977b2ef2560d0919213b9ef28b675bc30d61bb74dcf6c63e8b91d7afb84bc6.json</string>
+	<string>kitten-assets/json/scene2/8f8a4d31c13b978fc69a499fa46a79703fa8a1bebc5edc530fd3877e73262fcf.json</string>
 </dict>
 </plist>

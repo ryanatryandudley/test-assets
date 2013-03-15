@@ -4,6 +4,33 @@
 		"resizeToChildren": true,
 		
 		"children": {
+			"titleText": {
+				"class": "label",
+				"rect": {
+					"x": 100,
+					"y": 60,
+					"w": 400,
+					"h": 25
+				},
+				"font": {
+					"name": "Arial",
+					"size": 20
+				},
+				"textColor": {
+					"r": 0.2,
+					"g": 0,
+					"b": 0.3,
+					"a": 1
+				},
+				"backgroundColor": {
+					"r": 1,
+					"g": 1,
+					"b": 0.3,
+					"a": 0.5
+				},
+				"text": "THIS IS A SCREEN",
+				"textAlignment": 1
+			},
 			"ask_manager_1x1": {
 				"class": "image",
 				"file": "kitten-assets/img/ask_manager.png",

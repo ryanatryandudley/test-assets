@@ -1,0 +1,136 @@
+{
+	"message_view": {
+		"class": "view",
+		"rect": { "w": 960, "h": 640 },
+		
+		"children": {
+			"background_img": {
+				"class": "image",
+				"file": "kitten-assets/gamescene/popupbg.png",
+				"rect": { "x": 73, "y": 95 },
+				"children": {
+					"back_btn": {
+						"class": "button",
+						"n_file": "kitten-assets/gamescene/back.png",
+						"h_file": "kitten-assets/gamescene/back-highlight.png",
+						"rect": { "x": 30, "y": 324, "w": 100, "h": 100 },
+						"click": [ { "command": "enable", "params": { "name": "mail_btn" }, "lock": true },
+								   { "command": "pop", "params": { "name": "message_view" }, "lock": true }
+						],
+					},
+					"title_txt": {
+						"class": "label",
+						"rect": { "x": 0, "y": 25, "w": 794, "h": 50 },
+						"font": { "name": "Arial", "size": 48 },
+						"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+						"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+						"text": "Messages",
+						"textAlignment": 1
+					},
+					"mails_scr": {
+						"class": "scrollview",
+						"rect": { "x": 145, "y": 104, "w": 600, "h": 330 },
+						"resizeToChildren": true,
+						"children": {
+							"messageview1_btn": {
+								"class": "button",
+								"n_file": "kitten-assets/gamescene/messagebg.png",
+								"h_file": "kitten-assets/gamescene/message-highlight.png",
+								"rect": { "w": 592, "h": 86 },
+								"click": [ { "command": "push", "params": { "file": "kitten-assets/gamescene/mail.json" }, "lock": true } ],
+								"children": {
+									"msg_txt": {
+										"class": "label",
+										"rect": { "w": 592, "h": 86 },
+										"font": { "name": "Arial", "size": 32 },
+										"textColor": { "r": 0, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "New Content...",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								}
+							},
+							"messageview2_btn": {
+								"class": "button",
+								"n_file": "kitten-assets/gamescene/messagebg.png",
+								"h_file": "kitten-assets/gamescene/message-highlight.png",
+								"rect": { "y": 100, "w": 592, "h": 86 },
+								"click": [ { "command": "push", "params": { "file": "kitten-assets/gamescene/mail.json" }, "lock": true } ],
+								"children": {
+									"msg_txt": {
+										"class": "label",
+										"rect": { "w": 592, "h": 86 },
+										"font": { "name": "Arial", "size": 32 },
+										"textColor": { "r": 0, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "Enemy Raid...",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								}
+							},
+							"messageview3_btn": {
+								"class": "button",
+								"n_file": "kitten-assets/gamescene/messagebg.png",
+								"h_file": "kitten-assets/gamescene/message-highlight.png",
+								"rect": { "y": 200, "w": 592, "h": 86 },
+								"click": [ { "command": "push", "params": { "file": "kitten-assets/gamescene/mail.json" }, "lock": true } ],
+								"children": {
+									"msg_txt": {
+										"class": "label",
+										"rect": { "w": 592, "h": 86 },
+										"font": { "name": "Arial", "size": 32 },
+										"textColor": { "r": 0, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "Friend Joined...",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								}
+							},
+							"messageview4_btn": {
+								"class": "button",
+								"n_file": "kitten-assets/gamescene/messagebg.png",
+								"h_file": "kitten-assets/gamescene/message-highlight.png",
+								"rect": { "y": 300, "w": 592, "h": 86 },
+								"click": [ { "command": "push", "params": { "file": "kitten-assets/gamescene/mail.json" }, "lock": true } ],
+								"children": {
+									"msg_txt": {
+										"class": "label",
+										"rect": { "w": 592, "h": 86 },
+										"font": { "name": "Arial", "size": 32 },
+										"textColor": { "r": 0, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "Invite Accepted...",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								}
+							},
+							"messageview5_btn": {
+								"class": "button",
+								"n_file": "kitten-assets/gamescene/messagebg.png",
+								"h_file": "kitten-assets/gamescene/message-highlight.png",
+								"rect": { "y": 400, "w": 592, "h": 86 },
+								"click": [ { "command": "push", "params": { "file": "kitten-assets/gamescene/mail.json" }, "lock": true } ],
+								"children": {
+									"msg_txt": {
+										"class": "label",
+										"rect": { "w": 592, "h": 86 },
+										"font": { "name": "Arial", "size": 32 },
+										"textColor": { "r": 0, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "Enemy Raid...",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

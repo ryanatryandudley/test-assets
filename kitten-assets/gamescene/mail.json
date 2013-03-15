@@ -1,0 +1,31 @@
+{
+	"mail_view": {
+		"class": "view",
+		"rect": { "w": 960, "h": 640 },
+		
+		"children": {
+			"background_img": {
+				"class": "image",
+				"file": "kitten-assets/gamescene/mailbg.png",
+				"rect": { "x": 232, "y": 64 },
+				"children": {
+					"back_btn": {
+						"class": "button",
+						"n_file": "kitten-assets/gamescene/back.png",
+						"h_file": "kitten-assets/gamescene/back-highlight.png",
+						"rect": { "x": 30, "y": 354, "w": 100, "h": 100 },
+						"click": [ { "command": "pop", "params": { "name": "mail_view" }, "lock": true } ]
+					},
+					"message_txt": {
+						"class": "label",
+						"rect": { "x": 30, "y": 40, "w": 419, "h": 40 },
+						"font": { "name": "Arial", "size": 32 },
+						"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+						"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+						"text": "Here is a bunch of text.",
+					}
+				}
+			}
+		}
+	}
+}

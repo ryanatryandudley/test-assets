@@ -10,19 +10,9 @@
 			"w": 50,
 			"h": 50
 		},
-		"click": [{
-				  "command": "disable",
-				  "params": {
-				  "name": "push"
-				  },
-				  "lock": true
-				  }, {
-				  "command": "push",
-				  "params": {
-				  "file": "kitten-assets/json/scene2.json"
-				  },
-				  "lock": true
-				  }],
+		"click": [ { "command": "disable", "params": { "name": "push" }, "lock": true },
+				   { "command": "push", "params": { "file": "kitten-assets/json/scene2.json" }, "lock": true }
+				 ],
 		"enabled" : true
 	}
 }

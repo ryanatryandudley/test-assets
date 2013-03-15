@@ -1,0 +1,230 @@
+{
+	"master_view": {
+		"class": "view",
+		"resizeToChildren": true,
+		
+		"children": {
+			"background_img": {
+				"class": "image",
+				"file": "kitten-assets/gamescene/background.png",
+				"rect": { }
+			},
+			"title_txt": {
+				"class": "label",
+				"rect": { "x": 0, "y": 60, "w": 960, "h": 50 },
+				"font": { "name": "Arial", "size": 48 },
+				"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+				"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+				"text": "Kitten UI Engine",
+				"textAlignment": 1,
+				"order": 1
+			},
+			"settings_btn": {
+				"class": "button",
+				"n_file": "kitten-assets/gamescene/settings.png",
+				"h_file": "kitten-assets/gamescene/settings-highlight.png",
+				"order": 1,
+				"rect": { "x": 840, "y": 20, "w": 100, "h": 100 },
+				"click": [ { "command": "disable", "params": { "name": "settings_btn" }, "lock": true },
+						   { "command": "push", "params": { "file": "kitten-assets/gamescene/settings.json" }, "lock": true }
+				]
+			},
+			"mail_btn": {
+				"class": "button",
+				"n_file": "kitten-assets/gamescene/mail.png",
+				"h_file": "kitten-assets/gamescene/mail-highlight.png",
+				"order": 2,
+				"rect": { "x": 720, "y": 20, "w": 100, "h": 100 },
+				"click": [ { "command": "disable", "params": { "name": "mail_btn" }, "lock": true },
+						   { "command": "hide", "params": { "name": "newmail_img" }, "lock": true },
+						   { "command": "push", "params": { "file": "kitten-assets/gamescene/messages.json" }, "lock": true }
+				]
+			},
+			"newmail_img": {
+				"class": "image",
+				"file": "kitten-assets/gamescene/mailNEW.png",
+				"rect": { "x": 720, "y": 20 },
+				"order": 1
+			},
+			"scroll_img": {
+				"class": "image",
+				"file": "kitten-assets/gamescene/scrollbg.png",
+				"rect": { "x": 116, "y": 167 },
+				"order": 1,
+				"children": {
+					"scroller_scr": {
+						"class": "scrollview",
+						"rect": { "x": 15, "y": 15, "w": 686, "h": 313 },
+						"size": { "w": 1740, "h": 313 },
+						"children": {
+							"level1_btn": {
+								"class": "button",
+								"n_file": "kitten-assets/gamescene/levelbg.png",
+								"h_file": "kitten-assets/gamescene/level-highlight.png",
+								"rect": { "x": 20, "y": 45, "w": 259, "h": 232 },
+								"children": {
+									"level1_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 35, "w": 232, "h": 35 },
+										"font": { "name": "Arial", "size": 34 },
+										"textColor": { "r": 1, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "LEVEL",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									},
+									"levelnum1_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 120, "w": 232, "h": 80 },
+										"font": { "name": "Arial", "size": 72 },
+										"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "1",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								},
+								"click": [ { "command": "push", "params": { "file": "kitten-assets/json/scene2.json" }, "lock": true } ]
+							},
+							"level2_img": {
+								"class": "image",
+								"file": "kitten-assets/gamescene/levelbg.png",
+								"rect": { "x": 305, "y": 45 },
+								"children": {
+									"level2_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 35, "w": 232, "h": 35 },
+										"font": { "name": "Arial", "size": 34 },
+										"textColor": { "r": 1, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "LEVEL",
+										"textAlignment": 1
+									},
+									"levelnum2_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 120, "w": 232, "h": 80 },
+										"font": { "name": "Arial", "size": 72 },
+										"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "2",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								},
+								"alpha": 0.4
+							},
+							"level3_img": {
+								"class": "image",
+								"file": "kitten-assets/gamescene/levelbg.png",
+								"rect": { "x": 595, "y": 45 },
+								"children": {
+									"level3_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 35, "w": 232, "h": 35 },
+										"font": { "name": "Arial", "size": 34 },
+										"textColor": { "r": 1, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "LEVEL",
+										"textAlignment": 1
+									},
+									"levelnum3_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 120, "w": 232, "h": 80 },
+										"font": { "name": "Arial", "size": 72 },
+										"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "3",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								},
+								"alpha": 0.4
+							},
+							"level4_img": {
+								"class": "image",
+								"file": "kitten-assets/gamescene/levelbg.png",
+								"rect": { "x": 885, "y": 45 },
+								"children": {
+									"level4_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 35, "w": 232, "h": 35 },
+										"font": { "name": "Arial", "size": 34 },
+										"textColor": { "r": 1, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "LEVEL",
+										"textAlignment": 1
+									},
+									"levelnum4_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 120, "w": 232, "h": 80 },
+										"font": { "name": "Arial", "size": 72 },
+										"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "4",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								},
+								"alpha": 0.4
+							},
+							"level5_img": {
+								"class": "image",
+								"file": "kitten-assets/gamescene/levelbg.png",
+								"rect": { "x": 1175, "y": 45 },
+								"children": {
+									"level5_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 35, "w": 232, "h": 35 },
+										"font": { "name": "Arial", "size": 34 },
+										"textColor": { "r": 1, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "LEVEL",
+										"textAlignment": 1
+									},
+									"levelnum5_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 120, "w": 232, "h": 80 },
+										"font": { "name": "Arial", "size": 72 },
+										"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "5",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								},
+								"alpha": 0.4
+							},
+							"level6_img": {
+								"class": "image",
+								"file": "kitten-assets/gamescene/levelbg.png",
+								"rect": { "x": 1465, "y": 45 },
+								"children": {
+									"level6_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 35, "w": 232, "h": 35 },
+										"font": { "name": "Arial", "size": 34 },
+										"textColor": { "r": 1, "g": 0, "b": 1, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "LEVEL",
+										"textAlignment": 1
+									},
+									"levelnum6_txt": {
+										"class": "label",
+										"rect": { "x": 5, "y": 120, "w": 232, "h": 80 },
+										"font": { "name": "Arial", "size": 72 },
+										"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+										"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
+										"text": "6",
+										"textAlignment": 1,
+										"userInteractionEnabled": false
+									}
+								},
+								"alpha": 0.4
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

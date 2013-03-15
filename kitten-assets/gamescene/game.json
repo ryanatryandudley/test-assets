@@ -1,0 +1,31 @@
+{
+	"game_view": {
+		"class": "view",
+		
+		"children": {
+			"background_img": {
+				"class": "image",
+				"file": "kitten-assets/gamescene/gamebg.png",
+				"children": {
+					"o1x1": {
+						"class": "button",
+						"n_file": "kitten-assets/gamescene/game_o.png",
+						"rect": { "x": 30, "y": 324, "w": 170, "h": 149 },
+						"click": [ { "command": "disable", "params": { "name": "o1x1" }, "lock": true },
+								  { "command": "enable", "params": { "name": "x1x1" }, "lock": true }
+						],
+					},
+					"x1x1": {
+						"class": "button",
+						"n_file": "kitten-assets/gamescene/game_o.png",
+						"rect": { "x": 30, "y": 324, "w": 170, "h": 149 },
+						"click": [ { "command": "disable", "params": { "name": "x1x1" }, "lock": true },
+								  { "command": "enable", "params": { "name": "o1x1" }, "lock": true }
+						],
+						"enabled": false
+					}
+				}
+			}
+		}
+	}
+}

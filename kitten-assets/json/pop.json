@@ -10,16 +10,8 @@
 			"h": 50
 		},
 		
-		"click": [{
-				  "command": "pop",
-				  "params": {
-				  "name": "player_view"
-				  }
-				  }, {
-				  "command": "enable",
-				  "params": {
-				  "name": "push"
-				  }
-				  }]
+		"click": [{ "command": "pop", "params": { "name": "player_view" } },
+				  { "command": "enable", "params": { "name": "push" } }
+				  ]
 	}
 }
