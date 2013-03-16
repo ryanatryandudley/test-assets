@@ -1,6 +1,7 @@
 {
 	"game_view": {
 		"class": "view",
+		"rect": { "w": 960, "h": 640 },
 		
 		"children": {
 			"background_img": {
@@ -10,19 +11,20 @@
 					"o1x1": {
 						"class": "button",
 						"n_file": "kitten-assets/gamescene/game_o.png",
-						"rect": { "x": 30, "y": 324, "w": 170, "h": 149 },
-						"click": [ { "command": "disable", "params": { "name": "o1x1" }, "lock": true },
-								  { "command": "enable", "params": { "name": "x1x1" }, "lock": true }
+						"rect": { "x": 70, "y": 25, "w": 170, "h": 149 },
+						"click": [ { "command": "show", "params": { "name": "x1x1" }, "lock": true },
+								  { "command": "hide", "params": { "name": "o1x1" }, "lock": true }
 						],
+						"hidden": true,
 					},
 					"x1x1": {
 						"class": "button",
-						"n_file": "kitten-assets/gamescene/game_o.png",
-						"rect": { "x": 30, "y": 324, "w": 170, "h": 149 },
-						"click": [ { "command": "disable", "params": { "name": "x1x1" }, "lock": true },
-								  { "command": "enable", "params": { "name": "o1x1" }, "lock": true }
+						"n_file": "kitten-assets/gamescene/game_x.png",
+						"rect": { "x": 70, "y": 25, "w": 170, "h": 149 },
+						"click": [ { "command": "show", "params": { "name": "o1x1" }, "lock": true },
+								  { "command": "hide", "params": { "name": "x1x1" }, "lock": true }
 						],
-						"enabled": false
+						"hidden": false,
 					}
 				}
 			}

@@ -5,7 +5,7 @@
 	<key>MainMenu.nib</key>
 	<string>MainMenu/754a644a4ad699ff7f77c3d6112a774c5f969c5e218ae06734a5e9a5e65488ce.nib</string>
 	<key>kitten-assets/AssetVersionMap.plist</key>
-	<string>kitten-assets/AssetVersionMap/283a5578aabca2738f829d827e39ca6e167fa8224eaf1fe0a993fbf6a801e4b8.plist</string>
+	<string>kitten-assets/AssetVersionMap/2593209f5e23f274236e6fb6270ab927fc6398e5113044407eae17ba5809e32a.plist</string>
 	<key>kitten-assets/gamescene/back-highlight.png</key>
 	<string>kitten-assets/gamescene/back-highlight/90ad75c6a81c5afcc70f5f7165c59a5f1fc86d89889f507ca5da4784a875d1c8.png</string>
 	<key>kitten-assets/gamescene/back.png</key>
@@ -13,7 +13,7 @@
 	<key>kitten-assets/gamescene/background.png</key>
 	<string>kitten-assets/gamescene/background/1fba120bafd08072ad6ac848064d29b465c6bb0957c981900de2acb8e71269a3.png</string>
 	<key>kitten-assets/gamescene/game.json</key>
-	<string>kitten-assets/gamescene/game/9c247589d30a5944010b19d388340a9f008e80dcdc7ec270eaf817f290e420d9.json</string>
+	<string>kitten-assets/gamescene/game/a8c89d0a1bbb182da3e4c8d8d30a0aecd1edf61b788abc583a6a7581821a67d2.json</string>
 	<key>kitten-assets/gamescene/game_o.png</key>
 	<string>kitten-assets/gamescene/game_o/0668321ff5c1cf895df652c9954726322c45c72cfd97a08808137b63b4f0e4f0.png</string>
 	<key>kitten-assets/gamescene/game_x.png</key>
@@ -43,7 +43,7 @@
 	<key>kitten-assets/gamescene/popupbg.png</key>
 	<string>kitten-assets/gamescene/popupbg/7e3d4370aba752ced339459eeb0ae6b540feed3a29feab2b2bedfefbda3ee276.png</string>
 	<key>kitten-assets/gamescene/scene.json</key>
-	<string>kitten-assets/gamescene/scene/6a6cb90a394cd64c9ff489b9aec7b4d65c531ff4ef240ead9938b0c4d9d18597.json</string>
+	<string>kitten-assets/gamescene/scene/0b5487195e7bb8035f1e7451399c9f0b7c2cf654f4ecb232b1933f86153b2811.json</string>
 	<key>kitten-assets/gamescene/scrollbg.png</key>
 	<string>kitten-assets/gamescene/scrollbg/6493bbd4eae755db4c1de29c9e5c99ad411701fc774437eb58f386ca39c17ded.png</string>
 	<key>kitten-assets/gamescene/settings-highlight.png</key>

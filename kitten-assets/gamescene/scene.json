@@ -84,7 +84,7 @@
 										"userInteractionEnabled": false
 									}
 								},
-								"click": [ { "command": "push", "params": { "file": "kitten-assets/json/scene2.json" }, "lock": true } ]
+								"click": [ { "command": "push", "params": { "file": "kitten-assets/gamescene/game.json" }, "lock": true } ]
 							},
 							"level2_img": {
 								"class": "image",
