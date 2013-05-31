@@ -15,7 +15,7 @@
 				"font": { "name": "Arial", "size": 48 },
 				"textColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
 				"backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 0 },
-				"text": "Kitten UI Engine",
+				"text": "Money UI Engine",
 				"textAlignment": 1,
 				"order": 1
 			},
