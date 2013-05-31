@@ -6,13 +6,13 @@
 		"children": {
 			"background_img": {
 				"class": "image",
-				"file": "kitten-assets/gamescene/popupbg.png",
+				"file": "assets/gamescene/popupbg.png",
 				"rect": { "x": 73, "y": 95 },
 				"children": {
 					"back_btn": {
 						"class": "button",
-						"n_file": "kitten-assets/gamescene/back.png",
-						"h_file": "kitten-assets/gamescene/back-highlight.png",
+						"n_file": "assets/gamescene/back.png",
+						"h_file": "assets/gamescene/back-highlight.png",
 						"rect": { "x": 30, "y": 324, "w": 100, "h": 100 },
 						"click": [ { "command": "enable", "params": { "name": "settings_btn" }, "lock": true },
 								   { "command": "pop", "params": { "name": "settings_view" }, "lock": true }

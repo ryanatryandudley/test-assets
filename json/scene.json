@@ -33,17 +33,17 @@
 			},
 			"ask_manager_1x1": {
 				"class": "image",
-				"file": "kitten-assets/img/ask_manager.png",
+				"file": "assets/img/ask_manager.png",
 				"rect": {
 					"x": 0,
 					"y": 0
 				},
-				"children": "kitten-assets/json/children.json",
+				"children": "assets/json/children.json",
 				"userInteractionEnabled": false
 			},
 			"ask_manager_1x2": {
 				"class": "image",
-				"file": "kitten-assets/img/ask_manager.png",
+				"file": "assets/img/ask_manager.png",
 				"rect": {
 					"x": 200,
 					"y": 0
@@ -51,7 +51,7 @@
 			},
 			"ask_manager_1x3": {
 				"class": "image",
-				"file": "kitten-assets/img/ask_manager.png",
+				"file": "assets/img/ask_manager.png",
 				"rect": {
 					"x": 400,
 					"y": 0
@@ -60,16 +60,16 @@
 			},
 			"ask_manager_2x1": {
 				"class": "image",
-				"file": "kitten-assets/img/ask_manager.png",
+				"file": "assets/img/ask_manager.png",
 				"rect": {
 					"x": 0,
 					"y": 200
 				},
-				"children": "kitten-assets/json/children.json"
+				"children": "assets/json/children.json"
 			},
 			"ask_manager_2x2": {
 				"class": "image",
-				"file": "kitten-assets/img/ask_manager.png",
+				"file": "assets/img/ask_manager.png",
 				"rect": {
 					"x": 200,
 					"y": 200
@@ -77,7 +77,7 @@
 			},
 			"ask_manager_2x3": {
 				"class": "image",
-				"file": "kitten-assets/img/ask_manager.png",
+				"file": "assets/img/ask_manager.png",
 				"rect": {
 					"x": 400,
 					"y": 200

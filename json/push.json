@@ -1,0 +1,18 @@
+{
+	"push": {
+		"class": "button",
+		"n_file": "assets/img/perez-salvador.jpg",
+		"h_file": "assets/img/lillibridge-brent.jpg",
+		"d_file": "assets/img/berry-quintin.jpg",
+		"rect": {
+			"x": 20,
+			"y": 20,
+			"w": 50,
+			"h": 50
+		},
+		"click": [ { "command": "disable", "params": { "name": "push" }, "lock": true },
+				   { "command": "push", "params": { "file": "assets/json/scene2.json" }, "lock": true }
+				 ],
+		"enabled" : true
+	}
+}

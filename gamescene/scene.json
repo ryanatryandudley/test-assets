@@ -6,7 +6,7 @@
 		"children": {
 			"background_img": {
 				"class": "image",
-				"file": "kitten-assets/gamescene/background.png",
+				"file": "assets/gamescene/background.png",
 				"rect": { }
 			},
 			"title_txt": {
@@ -21,34 +21,34 @@
 			},
 			"settings_btn": {
 				"class": "button",
-				"n_file": "kitten-assets/gamescene/settings.png",
-				"h_file": "kitten-assets/gamescene/settings-highlight.png",
+				"n_file": "assets/gamescene/settings.png",
+				"h_file": "assets/gamescene/settings-highlight.png",
 				"order": 1,
 				"rect": { "x": 840, "y": 20, "w": 100, "h": 100 },
 				"click": [ { "command": "disable", "params": { "name": "settings_btn" }, "lock": true },
-						   { "command": "push", "params": { "file": "kitten-assets/gamescene/settings.json" }, "lock": true }
+						   { "command": "push", "params": { "file": "assets/gamescene/settings.json" }, "lock": true }
 				]
 			},
 			"mail_btn": {
 				"class": "button",
-				"n_file": "kitten-assets/gamescene/mail.png",
-				"h_file": "kitten-assets/gamescene/mail-highlight.png",
+				"n_file": "assets/gamescene/mail.png",
+				"h_file": "assets/gamescene/mail-highlight.png",
 				"order": 2,
 				"rect": { "x": 720, "y": 20, "w": 100, "h": 100 },
 				"click": [ { "command": "disable", "params": { "name": "mail_btn" }, "lock": true },
 						   { "command": "hide", "params": { "name": "newmail_img" }, "lock": true },
-						   { "command": "push", "params": { "file": "kitten-assets/gamescene/messages.json" }, "lock": true }
+						   { "command": "push", "params": { "file": "assets/gamescene/messages.json" }, "lock": true }
 				]
 			},
 			"newmail_img": {
 				"class": "image",
-				"file": "kitten-assets/gamescene/mailNEW.png",
+				"file": "assets/gamescene/mailNEW.png",
 				"rect": { "x": 720, "y": 20 },
 				"order": 1
 			},
 			"scroll_img": {
 				"class": "image",
-				"file": "kitten-assets/gamescene/scrollbg.png",
+				"file": "assets/gamescene/scrollbg.png",
 				"rect": { "x": 116, "y": 167 },
 				"order": 1,
 				"children": {
@@ -59,8 +59,8 @@
 						"children": {
 							"level1_btn": {
 								"class": "button",
-								"n_file": "kitten-assets/gamescene/levelbg.png",
-								"h_file": "kitten-assets/gamescene/level-highlight.png",
+								"n_file": "assets/gamescene/levelbg.png",
+								"h_file": "assets/gamescene/level-highlight.png",
 								"rect": { "x": 20, "y": 45, "w": 259, "h": 232 },
 								"children": {
 									"level1_txt": {
@@ -84,11 +84,11 @@
 										"userInteractionEnabled": false
 									}
 								},
-								"click": [ { "command": "push", "params": { "file": "kitten-assets/gamescene/game.json" }, "lock": true } ]
+								"click": [ { "command": "push", "params": { "file": "assets/gamescene/game.json" }, "lock": true } ]
 							},
 							"level2_img": {
 								"class": "image",
-								"file": "kitten-assets/gamescene/levelbg.png",
+								"file": "assets/gamescene/levelbg.png",
 								"rect": { "x": 305, "y": 45 },
 								"children": {
 									"level2_txt": {
@@ -115,7 +115,7 @@
 							},
 							"level3_img": {
 								"class": "image",
-								"file": "kitten-assets/gamescene/levelbg.png",
+								"file": "assets/gamescene/levelbg.png",
 								"rect": { "x": 595, "y": 45 },
 								"children": {
 									"level3_txt": {
@@ -142,7 +142,7 @@
 							},
 							"level4_img": {
 								"class": "image",
-								"file": "kitten-assets/gamescene/levelbg.png",
+								"file": "assets/gamescene/levelbg.png",
 								"rect": { "x": 885, "y": 45 },
 								"children": {
 									"level4_txt": {
@@ -169,7 +169,7 @@
 							},
 							"level5_img": {
 								"class": "image",
-								"file": "kitten-assets/gamescene/levelbg.png",
+								"file": "assets/gamescene/levelbg.png",
 								"rect": { "x": 1175, "y": 45 },
 								"children": {
 									"level5_txt": {
@@ -196,7 +196,7 @@
 							},
 							"level6_img": {
 								"class": "image",
-								"file": "kitten-assets/gamescene/levelbg.png",
+								"file": "assets/gamescene/levelbg.png",
 								"rect": { "x": 1465, "y": 45 },
 								"children": {
 									"level6_txt": {
